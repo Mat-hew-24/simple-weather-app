@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(248, 248, 206);
+}
+#weatherapp{
+    margin: auto;
+    margin-top: 125px;
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+#location{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+    background-color: black;
+    color: white;
+}
+#location::placeholder{
+    color: white;
+}
+#location:active{
+    color: white;
+}
+#weather-data{
+    margin: 0 auto;
+    width: 300px;
+    padding: 25px;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
